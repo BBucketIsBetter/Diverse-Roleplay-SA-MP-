@@ -312,7 +312,7 @@
 - Fixed an issue where /putgun would run the player-save operation before removing your weapon. (So lets say you /pg then the server restarts, you'd have he gun in your inventory AND in your hand.)
 - Added /ab. (Like /b except uses your admin-name and rank-color.)
 
-- Coded a 'watchdog' script that'll restart the server if it were to ever crash. ###[NOT INCLUDED]###
+- Coded a 'watchdog' script that'll restart the server if it were to ever crash. [NOT INCLUDED]
 
 - You can no longer change your staff name to one thats in use. (Sort of redundant cause it logs the admin's player name and staff name.)
 - Admins are now notified when 'GetTickCount()' tells the script that it's within 1 day of overflowing. It tells the admins that the VPS (or whatever the servers hosted on) needs to be restarted.
