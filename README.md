@@ -387,3 +387,6 @@
 - [ ] Make all array-indexes that start at '1', start at '0'.
 - [ ] Make sure theres no more stupid 'if (found == 0) { }' in loops, and ensure they use 'break' statements instead.
 - [ ] Convert any PVars that are set/called fairly often to be part of the PlayerInfo array.
+
+##Yes, this script is poorly written.##
+-The script has had a few awful scripters work on it over the years and lets be real, it's SA:MP I can't be bothered to fix all the bad code. If you want to use it, it's in more than working condition feel free. If you want the bad code fixed that bad, fix it yourself.
