@@ -3,7 +3,7 @@ A feature-filled, neat, but poorky-written SA:MP script.
 (I'd start by making all arrays start at index 0, and removing the use of PVars on variables that are set/retrieved often.)
 
 #[Changelog]#
-- [x] Added ingame UCP.
+- Added ingame UCP.
 - [x] Totally redone, optimized, menu-based inventory for players, houses.
 - [x] Added /v lights as an alternative to the Fire key.
 - [x] Wrote 'PData' library for automated saving and loading of strings, floats and integers. Requires no MySQL knowledge. Optimized edition. *Unused since I'm now scripting alone.*
