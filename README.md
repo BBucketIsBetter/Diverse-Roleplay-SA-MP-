@@ -380,6 +380,11 @@
 - /putgun (/pg) now saves your last primary weapon, secondary weapon, and melee weapon and attempts to equip the proper one when using /take(prim/sec/melee).
 - Changed shipment flare to a green property marker, now when the shipment arrives it broadcasts the location name to the faction and sets a checkpoint on their minimap.
 - Added /shipmenttimeleft [faction-ID] [minutes left.] to level 9+ admins so they can choose how long it takes a factions shipment to arrive. (This is logged.)
+- Added /tognametags to show/hide name-tags above a players head. (/tognicks does the same thing.)
+- Added /clothing as an alternative to /items.
+
+- Added /removecp (/destroycp) so players can destroy active checkpoints.
+- Added Rancher, Stallion, Slamvan, Hustler, and Windsor to the Jefferson dealership.
 
 #[TODO]#
 - [ ] Baitcar system.
