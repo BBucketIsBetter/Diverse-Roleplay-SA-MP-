@@ -396,3 +396,7 @@
 
 ##Yes, this script is poorly written.##
 -The script has had a few awful scripters work on it over the years and lets be real, it's SA:MP I can't be bothered to fix all the bad code. If you want to use it, it's in more than working condition feel free. If you want the bad code fixed that bad, fix it yourself.
+
+##Yes, there is a lot of general style differenecs.##
+-Again, this is a SA:MP script, no-one cares about stupid things like that.
+-If it bothers you too much, there's a simple solution.  Don't use it.
