@@ -1,7 +1,9 @@
 ##NOTE:##
 -The main account login is: Test_Test Test123
+
 -You will need the main account because this script has an in-game registration quiz, applications can be reviewed by registrars, helpers, and administrators. Applications are cached and can be reviewed regardless of whether or not the player is online.
 
+------------------------------------------------------------------------------------------------------------------------------
 
 - Added ingame UCP.
 - Totally redone, optimized, menu-based inventory for players, houses.
@@ -417,7 +419,8 @@
 
 ##Note to coders##
 -Please don't use 'PData' unless you have no clue how to use MySQL...
--Also PData can be improved by chanting the ALTER TABLE statement to check if the column exists yet, not that it matters.
+
+-Also PData can be improved by changing the ALTER TABLE statement to check if the column exists yet, not that it matters.
 
 ##SA-MP-watchdog.bat runs samp-server.exe and automatically restarts the server if it were to crash.##
 ##This gamemode incorporates fixes.inc by Y_Less to prevent many exploits/crashes in SA:MP!##
