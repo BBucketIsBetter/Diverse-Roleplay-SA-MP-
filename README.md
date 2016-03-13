@@ -400,3 +400,9 @@
 ##Yes, there is a lot of general style differenecs.##
 -Again, this is a SA:MP script, no-one cares about stupid things like that.
 -If it bothers you too much, there's a simple solution.  Don't use it.
+
+##Why am I releasing this?##
+-Because I'm officially done with SA:MP. It'll be dead soon enough anyways and there's no point in wasting any more time on it. If you'd like the optional php-based user control panel that goes with it contact me on skype at: xtra.large90
+-The web UCP contains many features for administrators and users to help them easily modify their character while not in-game, or administrate for admins. (Although anything that you can do on the web-UCP you can do in-game in /ucp.) 
+-The web UCP has a partially finished automated donations store. (Just isn't setup through Paypals IPN yet.)
+-The web UCP is injection-proof and burpe suite tested.
