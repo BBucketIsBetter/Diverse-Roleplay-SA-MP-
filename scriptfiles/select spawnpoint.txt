@@ -1,0 +1,37 @@
+// TextDraw developed using Zamaroht's Textdraw Editor 1.0
+
+// On top of script:
+new Text:Textdraw0;
+new Text:Textdraw1;
+new Text:Textdraw2;
+
+// In OnGameModeInit prefferably, we procced to create our textdraws:
+Textdraw0 = TextDrawCreate(151.000000, 288.000000, "< LAST LOCATION >");
+TextDrawBackgroundColor(Textdraw0, 255);
+TextDrawFont(Textdraw0, 1);
+TextDrawLetterSize(Textdraw0, 1.030000, 2.600000);
+TextDrawColor(Textdraw0, -1);
+TextDrawSetOutline(Textdraw0, 0);
+TextDrawSetProportional(Textdraw0, 1);
+TextDrawSetShadow(Textdraw0, 1);
+
+Textdraw1 = TextDrawCreate(229.000000, 315.000000, "( USE THE ARROW KEYS TO SELECT BACK OR FORWARD");
+TextDrawBackgroundColor(Textdraw1, 255);
+TextDrawFont(Textdraw1, 1);
+TextDrawLetterSize(Textdraw1, 0.199999, 0.800000);
+TextDrawColor(Textdraw1, -1);
+TextDrawSetOutline(Textdraw1, 0);
+TextDrawSetProportional(Textdraw1, 1);
+TextDrawSetShadow(Textdraw1, 1);
+
+Textdraw2 = TextDrawCreate(254.000000, 276.000000, "( SELECT A SPAWN POINT )");
+TextDrawBackgroundColor(Textdraw2, 255);
+TextDrawFont(Textdraw2, 1);
+TextDrawLetterSize(Textdraw2, 0.300000, 0.800000);
+TextDrawColor(Textdraw2, -1);
+TextDrawSetOutline(Textdraw2, 0);
+TextDrawSetProportional(Textdraw2, 1);
+TextDrawSetShadow(Textdraw2, 1);
+
+// You can now use TextDrawShowForPlayer(-ForAll), TextDrawHideForPlayer(-ForAll) and
+// TextDrawDestroy functions to show, hide, and destroy the textdraw.

@@ -1,0 +1,76 @@
+// TextDraw developed using Zamaroht's Textdraw Editor 1.0
+
+// On top of script:
+new Text:Textdraw0;
+new Text:Textdraw1;
+new Text:Textdraw2;
+new Text:Textdraw3;
+new Text:Textdraw4;
+new Text:Textdraw5;
+
+// In OnGameModeInit prefferably, we procced to create our textdraws:
+Textdraw0 = TextDrawCreate(511.000000, 108.000000, "hud:radar_hostpital");
+TextDrawBackgroundColor(Textdraw0, 255);
+TextDrawFont(Textdraw0, 4);
+TextDrawLetterSize(Textdraw0, 0.500000, 1.000000);
+TextDrawColor(Textdraw0, -1);
+TextDrawSetOutline(Textdraw0, 0);
+TextDrawSetProportional(Textdraw0, 1);
+TextDrawSetShadow(Textdraw0, 1);
+TextDrawUseBox(Textdraw0, 1);
+TextDrawBoxColor(Textdraw0, 255);
+TextDrawTextSize(Textdraw0, 17.000000, 14.000000);
+
+Textdraw1 = TextDrawCreate(532.000000, 110.000000, "TORSO WOUND");
+TextDrawBackgroundColor(Textdraw1, 255);
+TextDrawFont(Textdraw1, 2);
+TextDrawLetterSize(Textdraw1, 0.340000, 1.100000);
+TextDrawColor(Textdraw1, -1);
+TextDrawSetOutline(Textdraw1, 0);
+TextDrawSetProportional(Textdraw1, 1);
+TextDrawSetShadow(Textdraw1, 1);
+
+Textdraw2 = TextDrawCreate(511.000000, 128.000000, "hud:radar_hostpital");
+TextDrawBackgroundColor(Textdraw2, 255);
+TextDrawFont(Textdraw2, 4);
+TextDrawLetterSize(Textdraw2, 0.500000, 1.000000);
+TextDrawColor(Textdraw2, -1);
+TextDrawSetOutline(Textdraw2, 0);
+TextDrawSetProportional(Textdraw2, 1);
+TextDrawSetShadow(Textdraw2, 1);
+TextDrawUseBox(Textdraw2, 1);
+TextDrawBoxColor(Textdraw2, 255);
+TextDrawTextSize(Textdraw2, 17.000000, 14.000000);
+
+Textdraw3 = TextDrawCreate(539.000000, 130.000000, "LEG WOUND");
+TextDrawBackgroundColor(Textdraw3, 255);
+TextDrawFont(Textdraw3, 2);
+TextDrawLetterSize(Textdraw3, 0.340000, 1.100000);
+TextDrawColor(Textdraw3, -1);
+TextDrawSetOutline(Textdraw3, 0);
+TextDrawSetProportional(Textdraw3, 1);
+TextDrawSetShadow(Textdraw3, 1);
+
+Textdraw4 = TextDrawCreate(511.000000, 148.000000, "hud:radar_hostpital");
+TextDrawBackgroundColor(Textdraw4, 255);
+TextDrawFont(Textdraw4, 4);
+TextDrawLetterSize(Textdraw4, 0.500000, 1.000000);
+TextDrawColor(Textdraw4, -1);
+TextDrawSetOutline(Textdraw4, 0);
+TextDrawSetProportional(Textdraw4, 1);
+TextDrawSetShadow(Textdraw4, 1);
+TextDrawUseBox(Textdraw4, 1);
+TextDrawBoxColor(Textdraw4, 255);
+TextDrawTextSize(Textdraw4, 17.000000, 14.000000);
+
+Textdraw5 = TextDrawCreate(539.000000, 150.000000, "ARM WOUND");
+TextDrawBackgroundColor(Textdraw5, 255);
+TextDrawFont(Textdraw5, 2);
+TextDrawLetterSize(Textdraw5, 0.340000, 1.100000);
+TextDrawColor(Textdraw5, -1);
+TextDrawSetOutline(Textdraw5, 0);
+TextDrawSetProportional(Textdraw5, 1);
+TextDrawSetShadow(Textdraw5, 1);
+
+// You can now use TextDrawShowForPlayer(-ForAll), TextDrawHideForPlayer(-ForAll) and
+// TextDrawDestroy functions to show, hide, and destroy the textdraw.

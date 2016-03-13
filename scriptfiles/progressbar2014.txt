@@ -1,0 +1,56 @@
+// TextDraw developed using Zamaroht's Textdraw Editor 1.0
+
+// On top of script:
+new Text:Textdraw0;
+new Text:Textdraw1;
+new Text:Textdraw2;
+new Text:Textdraw3;
+
+// In OnGameModeInit prefferably, we procced to create our textdraws:
+Textdraw0 = TextDrawCreate(262.000000, 295.000000, "I");
+TextDrawBackgroundColor(Textdraw0, 0);
+TextDrawFont(Textdraw0, 1);
+TextDrawLetterSize(Textdraw0, 0.500000, 1.199999);
+TextDrawColor(Textdraw0, 150994944);
+TextDrawSetOutline(Textdraw0, 0);
+TextDrawSetProportional(Textdraw0, 1);
+TextDrawSetShadow(Textdraw0, 1);
+TextDrawUseBox(Textdraw0, 1);
+TextDrawBoxColor(Textdraw0, 255);
+TextDrawTextSize(Textdraw0, 364.000000, 0.000000);
+
+Textdraw1 = TextDrawCreate(266.000000, 298.000000, "I");
+TextDrawBackgroundColor(Textdraw1, 0);
+TextDrawFont(Textdraw1, 1);
+TextDrawLetterSize(Textdraw1, 0.500000, 0.599999);
+TextDrawColor(Textdraw1, 0);
+TextDrawSetOutline(Textdraw1, 0);
+TextDrawSetProportional(Textdraw1, 1);
+TextDrawSetShadow(Textdraw1, 1);
+TextDrawUseBox(Textdraw1, 1);
+TextDrawBoxColor(Textdraw1, 2038004223);
+TextDrawTextSize(Textdraw1, 360.000000, 0.000000);
+
+Textdraw2 = TextDrawCreate(266.000000, 298.000000, "I");
+TextDrawBackgroundColor(Textdraw2, 0);
+TextDrawFont(Textdraw2, 1);
+TextDrawLetterSize(Textdraw2, 0.500000, 0.599999);
+TextDrawColor(Textdraw2, 0);
+TextDrawSetOutline(Textdraw2, 0);
+TextDrawSetProportional(Textdraw2, 1);
+TextDrawSetShadow(Textdraw2, 1);
+TextDrawUseBox(Textdraw2, 1);
+TextDrawBoxColor(Textdraw2, -1);
+TextDrawTextSize(Textdraw2, 261.000000, 0.000000);
+
+Textdraw3 = TextDrawCreate(261.000000, 280.000000, "UNLOADING PACKAGE");
+TextDrawBackgroundColor(Textdraw3, 255);
+TextDrawFont(Textdraw3, 2);
+TextDrawLetterSize(Textdraw3, 0.240000, 1.399999);
+TextDrawColor(Textdraw3, -1);
+TextDrawSetOutline(Textdraw3, 0);
+TextDrawSetProportional(Textdraw3, 1);
+TextDrawSetShadow(Textdraw3, 1);
+
+// You can now use TextDrawShowForPlayer(-ForAll), TextDrawHideForPlayer(-ForAll) and
+// TextDrawDestroy functions to show, hide, and destroy the textdraw.
