@@ -4053,7 +4053,7 @@ public OnDialogResponse(playerid, dialogid, response, listitem, inputtext[])
 		{
 			if(!response) return true;
 			new foundid = 0;
-			for(new h = 0; h < MAX_HOUSES; h++)
+			for(new h = 1; h < MAX_HOUSES; h++)
 			{
 			    if(HouseInfo[h][hID] != 0)
 			    {
@@ -14046,7 +14046,7 @@ stock SaveBizzBackdoor(i)
 //============================================//
 stock LoadHouses() {
 	new query[255];
-	for(new i=0; i< MAX_HOUSES; i++) {
+	for(new i=1; i< MAX_HOUSES; i++) {
 		mysql_format(handlesql, query, sizeof(query), "SELECT * FROM houses WHERE ID=%d", i);
 		mysql_function_query(handlesql, query, true, "LoadHouseSQL", "d", i);
 	}
@@ -14062,7 +14062,7 @@ stock LoadHouseID(id) {
 //============================================//
 stock SaveHouses() {
 	new query[700];
-	for(new i=0; i< MAX_HOUSES; i++)
+	for(new i=1; i< MAX_HOUSES; i++)
 	{
 		format(query, sizeof(query), "UPDATE `houses` SET `Xo`=%f,`Yo`=%f,`Zo`=%f,`Xi`=%f,`Yi`=%f,`Zi`=%f,`IntOut`=%d,`IntIn`=%d,`VwOut`=%d,`Owned`=%d,`Owner`='%s',`Value`=%d,`BuyValue`=%d, `Class`=%d, `FurnR`='%s', `Bank`=%d, `Combo`=%d, `sLocked`=%d, `Materials`=%d WHERE ID=%d",
 		HouseInfo[i][hXo],HouseInfo[i][hYo],HouseInfo[i][hZo],HouseInfo[i][hXi],HouseInfo[i][hYi],HouseInfo[i][hZi],HouseInfo[i][hIntOut],HouseInfo[i][hIntIn],HouseInfo[i][hVwOut],HouseInfo[i][hOwned],HouseInfo[i][hOwner],HouseInfo[i][hValue],HouseInfo[i][hBuyValue],HouseInfo[i][hClass], HouseInfo[i][hFurnR], HouseInfo[i][hBank], HouseInfo[i][hCombo], HouseInfo[i][sLocked], HouseInfo[i][hMats], HouseInfo[i][hID]);

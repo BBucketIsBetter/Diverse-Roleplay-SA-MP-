@@ -8387,7 +8387,7 @@ COMMAND:createhouse(playerid, params[])
 	new houseid, price, Float:X, Float:Y, Float:Z, UID, text[128];
 	if(sscanf(params,"ii",houseid, price)) return usage(playerid, "/createhouse [Class][Value] - (Classes go 1,2,3,4 (small, medium, big,mansion))");
 	if(houseid < 1 || houseid > 4) return error(playerid, "Invalid house ID.");
-	for(new i=0; i< MAX_HOUSES; i++) {
+	for(new i=1; i< MAX_HOUSES; i++) {
 		if(HouseInfo[i][hID] == 0) {
 		    UID = i;
 			format(text, sizeof(text), "House id is %d", UID);
@@ -9648,7 +9648,7 @@ COMMAND:m(playerid, params[])
 	    	    case 2: format(string, sizeof(string), "[LSFD %s:o< %s]", sendername, text);
 	    	}
 			ProxDetector(60.0, playerid, string,COLOR_YELLOW);
-			for(new h = 0; h < MAX_HOUSES; h++)
+			for(new h = 1; h < MAX_HOUSES; h++)
 			{
 	    		if(IsPlayerInRangeOfPoint(playerid,10.0, HouseInfo[h][hXo], HouseInfo[h][hYo], HouseInfo[h][hZo]))
 	    		{
@@ -13751,7 +13751,7 @@ COMMAND:ram(playerid, params[])
 {
 	if(GetPVarInt(playerid, "Member") != 1) return nal(playerid);
 	if(GetPVarInt(playerid, "Duty") != 1) return error(playerid, "You are not on duty.");
-  	for(new h = 0; h < MAX_HOUSES; h++)
+  	for(new h = 1; h < MAX_HOUSES; h++)
 	{
 	    if(HouseInfo[h][hID] != 0)
 	    {
